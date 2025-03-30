@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*import link for Quicksand font from fonts.google.com*/
+
+/*TEXT & HEADERS*/
+a{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #008B8B;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 75px;
+    color: #2F4F4F;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 55px;
+    color:#2F4F4F;
+    text-decoration: underline;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+    color:#2F4F4F;
+}
+
+h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color:#2F4F4F
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2F4F4F
+}
+
+/*CONTACT FORM*/
+/*sets up the content within the div tag containing the ID Contact to be centered on the webpage*/
+#contact{
+    display: block;
+    margin-bottom: 70px;
+}
+
+form{
+    display: table; /*this will display the form in table format as rows and columns*/
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto; /*the browser will automatically calculate margins to center the form on the screen*/
+}
+
+label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+
+/*this will specifically target the input tags that are nested within the form tags*/ 
+form input{
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px 15px 10px 0px;
+    transition: 0.3s ease-out; /*transitions back to light gray when a user clicks away from an input field*/
+}
+
+form input:focus{
+    border: 2px solid #008B8B;
+    color: black;
+    outline: none; /*removes default border added when focus pseudo class is triggered*/
+    transition: 0.3s ease-out;
+}
+
